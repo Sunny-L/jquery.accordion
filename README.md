@@ -24,8 +24,7 @@
         })
     })
 ## 参数
-
-    * currentWidth 874 hover时当前元素元素宽度
-    * otherWidth 25 hover时其它元素宽度
-    * itemDefautWidth 166 常态时元素默认宽度
-    * speed  500 组件收缩速度
+* currentWidth 874 hover时当前元素元素宽度
+* otherWidth 25 hover时其它元素宽度
+* itemDefautWidth 166 常态时元素默认宽度
+* speed  500 组件收缩速度

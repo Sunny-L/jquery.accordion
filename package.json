@@ -1,0 +1,19 @@
+{
+  "name": "jquery.accordion",
+  "version": "1.0.0",
+  "description": "jquery手风琴插件",
+  "main": "jquery.accordion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunny-L/jquery.accordion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunny-L/jquery.accordion/issues"
+  },
+  "homepage": "https://github.com/Sunny-L/jquery.accordion#readme"
+}

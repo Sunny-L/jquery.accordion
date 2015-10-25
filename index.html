@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jquery手风琴效果</title>
+        <style>
+            *{padding:0;}
+            .clearfix{clear:both;}
+            ul{list-style: none;}
+            .brand-species{width: 1000px;height: 398px;overflow: hidden;margin:0 auto;}
+            .brand-species li{width:166.6px;height:398px;float:left;}
+        </style>
+        <script src="src/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="src/jquery.accordion.js"></script>
+    </head>
+    <body>
+            <div class="brand-species">
+                <ul class="clearfix">
+                  <li style="background:url(src/images/brand-1f-big.png) -25px 0 no-repeat"></li>
+                  <li style="background:url(src/images/brand-2f-big.png) -25px 0 no-repeat"></li>
+                  <li style="background:url(src/images/brand-3f-big.png) -25px 0 no-repeat"></li>
+                  <li style="background:url(src/images/brand-4f-big.png) -25px 0 no-repeat"></li>
+                  <li style="background:url(src/images/brand-5f-big.png) -25px 0 no-repeat"></li>
+                  <li style="background:url(src/images/brand-6f-big.png) -25px 0 no-repeat"></li>
+                </ul>
+              </div>
+    </body>
+    <script>
+        $(function(){
+            $('.brand-species').accordion({
+                currentWidth:'874',
+                otherWidth:'25',
+                itemDefautWidth:'166'
+            })
+        })
+    </script>
+</html>

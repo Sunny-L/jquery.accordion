@@ -1,4 +1,6 @@
 ## jquery手风琴效果插件
+## [Live demo](http://sunnyson303.github.io/jquery.accordion/)
+
 ## 用法
 
 1、加载插件
